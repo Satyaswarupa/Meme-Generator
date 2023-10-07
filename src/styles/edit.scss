@@ -1,0 +1,24 @@
+.editpage{
+    background-color: rgb(16, 32, 32);
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+    align-items: center;
+    justify-content: center;
+    color: rgb(80, 80, 251);
+.down{
+    width: auto;
+    height: auto;
+}
+
+    img{
+        height: 200px;
+        width: auto;
+    }
+    button{
+        background-color: rgb(13, 222, 187);
+      height: auto;
+      width: 100px;
+      border-radius: 20px;
+    }
+}
