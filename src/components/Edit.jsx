@@ -22,8 +22,10 @@ const Edit = () => {
             Array(count).fill(0).map(e => <Text />)
         }
     </div>
+    <div className="btn">
     <button onClick={addText}>Add text</button>
     <button onClick={(e) => exportComponentAsJPEG(memeref)}>Download</button>
+    </div>
     </div>
   )
 }
